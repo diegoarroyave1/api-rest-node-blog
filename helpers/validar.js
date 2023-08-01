@@ -7,7 +7,7 @@ const validarArticulo = (parametros) => {
     let validar_contenido = !validator.isEmpty(parametros.contenido);
     
     if (!validar_titulo || !validar_contenido){
-        throw new Error("No se ha validado la informacionnn")
+        throw new Error("No se ha validado la informacion")
     }
 
 
